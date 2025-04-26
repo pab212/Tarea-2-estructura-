@@ -16,10 +16,10 @@ El programa identifica las ciudades que experimentaron temblores y sus respectiv
 
 ## 📁 Estructura del Código
 
-- `main.c`: Función principal del programa
-- `randomCSV.c`: Codigo para la creacion aleatoria del archivo input.csv
+- `main.c`: Función principal del programa // ./tarea2 input.csv n_ciudades output.txt
+- `randomCSV.c`: Codigo para la creacion aleatoria del archivo input.csv  // ./randomCSV input.csv
 - `cities.txt`: Lista de ciudades usadas para la creacion del input.csv
-- `Makefile`: Compilación automatizada
+- `Makefile`: Compilación automatizada de tarea2 y randomCSV
 - `modules/`
   - `processor.c` y `processor.h`: Lectura del archivo CSV
   - `sorter.c` y `sorter.h`: Algoritmo QuickSort personalizado
