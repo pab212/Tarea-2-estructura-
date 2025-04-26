@@ -17,7 +17,8 @@ El programa identifica las ciudades que experimentaron temblores y sus respectiv
 ## 📁 Estructura del Código
 
 - `main.c`: Función principal del programa
-- `types.h`: Definición de la estructura `CityData`
+- `randomCSV.c`: Codigo para la creacion aleatoria del archivo input.csv
+- `cities.txt`: Lista de ciudades usadas para la creacion del input.csv
 - `Makefile`: Compilación automatizada
 - `modules/`
   - `processor.c` y `processor.h`: Lectura del archivo CSV
